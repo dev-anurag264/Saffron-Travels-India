@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f07d00"/>
+      <stop offset="100%" stop-color="#ff9f20"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="50" fill="url(#g)"/>
+  <!-- Map pin / location icon -->
+  <path d="M50 18 C37 18 27 28 27 41 C27 57 50 82 50 82 C50 82 73 57 73 41 C73 28 63 18 50 18 Z" fill="white" opacity="0.95"/>
+  <circle cx="50" cy="41" r="9" fill="url(#g)"/>
+</svg>
