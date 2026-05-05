@@ -115,7 +115,7 @@ export default function Navbar() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
               <a
-                href="tel:+919876543210"
+                href="tel:+917004421172"
                 className={`flex items-center gap-2 text-sm font-body font-medium transition-colors ${
                   scrolled || !isHome
                     ? "text-earth-600 hover:text-saffron-600"
@@ -123,7 +123,7 @@ export default function Navbar() {
                 }`}
               >
                 <Phone className="w-4 h-4" />
-                +91 98765 43210
+                +91 70044 21172
               </a>
               <Link to="/contact" className="btn-primary text-sm py-2.5 px-5">
                 Get Your Package
@@ -220,11 +220,11 @@ export default function Navbar() {
               {/* Drawer footer */}
               <div className="px-6 py-6 border-t border-earth-100 space-y-3">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+917004421172"
                   className="flex items-center gap-2 text-earth-600 font-body text-sm"
                 >
                   <Phone className="w-4 h-4 text-saffron-500" />
-                  +91 98765 43210
+                  +91 70044 21172
                 </a>
                 <Link
                   to="/contact"

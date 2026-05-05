@@ -161,9 +161,9 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-saffron-400 mt-0.5 flex-shrink-0" />
                 <p className="font-body text-sm text-white/50 leading-relaxed">
-                  302, Radison Towers, SF Road,
+                  98/A, Prestige Tower, Block B, Floor 8,
                   <br />
-                  Siliguri, West Bengal - 734001
+                  IndiraNagar, Bengaluru - 560037
                 </p>
               </li>
               <li>
@@ -181,7 +181,7 @@ export default function Footer() {
                   className="flex items-center gap-3 font-body text-sm text-white/50 hover:text-saffron-400 transition-colors"
                 >
                   <Mail className="w-4 h-4 text-saffron-400 flex-shrink-0" />
-                  enquiry@saffrontravels.in
+                  enquire@saffrontravels.in
                 </a>
               </li>
             </ul>
