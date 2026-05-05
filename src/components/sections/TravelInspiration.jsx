@@ -63,7 +63,7 @@ export default function TravelInspiration() {
             className="flex items-center gap-2 text-earth-500 hover:text-saffron-600 font-body text-sm transition-colors group"
           >
             <Instagram className="w-5 h-5 group-hover:text-saffron-500 transition-colors" />
-            @saffrontrailsindia
+            @saffrontravelsIndia
           </a>
         </div>
 

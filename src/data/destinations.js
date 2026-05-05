@@ -45,13 +45,12 @@ export const destinations = [
     name: "Rajasthan",
     tagline: "Land of Kings",
     state: "Rajasthan",
-    image:
-      "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80",
+    image: "src/assets/locations/raj001.webp",
     description:
       "Royal palaces, golden sand dunes, and vibrant culture. Rajasthan is India's most majestic heritage destination.",
     priceFrom: "₹25,000",
     priceTo: "₹1,20,000",
-    duration: "7–10 nights",
+    duration: "7-10 nights",
     rating: 4.9,
     reviews: 536,
     category: ["heritage", "family", "luxury", "cultural"],
@@ -69,7 +68,7 @@ export const destinations = [
     name: "Goa",
     tagline: "Where Every Moment Shines",
     state: "Goa",
-    image: "src/assets/locations/ga02.jpg",
+    image: "src/assets/locations/goa01.webp",
     description:
       "Sun-kissed beaches, Portuguese architecture, vibrant nightlife, and fresh seafood. Goa has something for everyone.",
     priceFrom: "₹15,000",
@@ -92,8 +91,7 @@ export const destinations = [
     name: "Manali",
     tagline: "Adventure Awaits",
     state: "Himachal Pradesh",
-    image:
-      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: "src/assets/locations/hp001.webp",
     description:
       "A paradise for thrill seekers and nature lovers alike, Manali offers dramatic Himalayan landscapes year-round.",
     priceFrom: "₹18,000",
@@ -116,13 +114,12 @@ export const destinations = [
     name: "Andaman Islands",
     tagline: "Tropical Paradise",
     state: "Andaman & Nicobar",
-    image:
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80",
+    image: "src/assets/locations/and001.webp",
     description:
       "Crystal clear turquoise waters, untouched coral reefs, and pristine white-sand beaches in India's island gem.",
     priceFrom: "₹30,000",
     priceTo: "₹90,000",
-    duration: "5–8 nights",
+    duration: "5-8 nights",
     rating: 4.9,
     reviews: 203,
     category: ["beach", "honeymoon", "adventure"],
@@ -132,7 +129,7 @@ export const destinations = [
       "Cellular Jail",
       "Neil Island",
     ],
-    bestTime: "Oct – May",
+    bestTime: "Oct - May",
     badge: "Premium",
   },
   {
@@ -140,13 +137,12 @@ export const destinations = [
     name: "Kerala",
     tagline: "God's Own Country",
     state: "Kerala",
-    image:
-      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80",
+    image: "src/assets/locations/ker001.webp",
     description:
       "Backwaters, Ayurveda retreats, spice plantations, and pristine beaches make Kerala an unforgettable escape.",
     priceFrom: "₹22,000",
     priceTo: "₹70,000",
-    duration: "5–8 nights",
+    duration: "5-8 nights",
     rating: 4.8,
     reviews: 412,
     category: ["beach", "honeymoon", "family", "wellness"],
@@ -156,7 +152,7 @@ export const destinations = [
       "Kovalam Beach",
       "Periyar Wildlife",
     ],
-    bestTime: "Sep – Mar",
+    bestTime: "Sep - Mar",
     badge: "Most Popular",
   },
   {
@@ -164,13 +160,12 @@ export const destinations = [
     name: "Varanasi",
     tagline: "Soul of India",
     state: "Uttar Pradesh",
-    image:
-      "https://images.unsplash.com/photo-1561361513-2d000a50f36d?w=800&q=80",
+    image: "src/assets/locations/varanasi.jpg",
     description:
       "The world's oldest living city — a spiritual journey along the sacred ghats of the Ganges River.",
     priceFrom: "₹12,000",
     priceTo: "₹40,000",
-    duration: "3–5 nights",
+    duration: "3-5 nights",
     rating: 4.7,
     reviews: 445,
     category: ["spiritual", "cultural", "heritage"],
@@ -180,7 +175,7 @@ export const destinations = [
       "Sarnath",
       "Kashi Vishwanath",
     ],
-    bestTime: "Oct – Mar",
+    bestTime: "Oct - Mar",
     badge: "Spiritual",
   },
   {
@@ -194,7 +189,7 @@ export const destinations = [
       "Mist-covered hills, coffee estates, and cascading waterfalls make Coorg the perfect weekend escape.",
     priceFrom: "₹16,000",
     priceTo: "₹45,000",
-    duration: "3–5 nights",
+    duration: "3-5 nights",
     rating: 4.6,
     reviews: 267,
     category: ["hill-station", "honeymoon", "nature"],
@@ -204,7 +199,7 @@ export const destinations = [
       "Raja's Seat",
       "Nagarhole Safari",
     ],
-    bestTime: "Oct – Mar",
+    bestTime: "Oct - Mar",
     badge: "Nature Retreat",
   },
 ];

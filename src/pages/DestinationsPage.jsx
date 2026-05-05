@@ -1,25 +1,35 @@
-import { useState, useMemo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Filter, Search, Star, Clock, MapPin, ArrowRight, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import CTABanner from '../components/sections/CTABanner';
-import { destinations, destinationCategories } from '../data/destinations';
+import { useState, useMemo } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  Filter,
+  Search,
+  Star,
+  Clock,
+  MapPin,
+  ArrowRight,
+  X,
+} from "lucide-react";
+import { Link } from "react-router-dom";
+import CTABanner from "../components/sections/CTABanner";
+import { destinations, destinationCategories } from "../data/destinations";
 
 export default function DestinationsPage() {
-  const [activeFilter, setActiveFilter] = useState('all');
-  const [searchQuery, setSearchQuery] = useState('');
+  const [activeFilter, setActiveFilter] = useState("all");
+  const [searchQuery, setSearchQuery] = useState("");
   const [hoveredId, setHoveredId] = useState(null);
 
   const filtered = useMemo(() => {
-    let list = activeFilter === 'all'
-      ? destinations
-      : destinations.filter(d => d.category.includes(activeFilter));
+    let list =
+      activeFilter === "all"
+        ? destinations
+        : destinations.filter((d) => d.category.includes(activeFilter));
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase();
-      list = list.filter(d =>
-        d.name.toLowerCase().includes(q) ||
-        d.state.toLowerCase().includes(q) ||
-        d.description.toLowerCase().includes(q)
+      list = list.filter(
+        (d) =>
+          d.name.toLowerCase().includes(q) ||
+          d.state.toLowerCase().includes(q) ||
+          d.description.toLowerCase().includes(q),
       );
     }
     return list;
@@ -31,15 +41,15 @@ export default function DestinationsPage() {
       <section className="relative pt-36 pb-24 overflow-hidden bg-charcoal">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1920&q=80"
+            src="src/assets/locations/dj002.jpg"
             alt="India destinations"
-            className="w-full h-full object-cover opacity-25"
+            className="w-full h-full object-cover opacity-50"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 via-charcoal/50 to-charcoal" />
         </div>
 
         {/* Floating destination badges */}
-        {['Kashmir ❄️', 'Kerala 🌴', 'Rajasthan 🏜', 'Goa 🌊', 'Andaman 🐠'].map((name, i) => (
+        {/* {['Kashmir ❄️', 'Kerala 🌴', 'Rajasthan 🏜', 'Goa 🌊', 'Andaman 🐠'].map((name, i) => (
           <motion.div
             key={name}
             className="absolute glass px-3 py-1.5 rounded-full text-white/70 text-xs font-body hidden md:block"
@@ -52,7 +62,7 @@ export default function DestinationsPage() {
           >
             {name}
           </motion.div>
-        ))}
+        ))} */}
 
         <div className="relative z-10 container-custom text-center max-w-3xl mx-auto">
           <motion.span
@@ -76,7 +86,8 @@ export default function DestinationsPage() {
             transition={{ delay: 0.2 }}
             className="text-white/60 font-body text-lg max-w-xl mx-auto mb-8"
           >
-            {destinations.length} handpicked destinations across India — from snow-capped Himalayan peaks to sun-drenched tropical coastlines.
+            {destinations.length} handpicked destinations across India , from
+            snow-capped Himalayan peaks to sun-drenched tropical coastlines.
           </motion.p>
 
           {/* Search bar in hero */}
@@ -91,12 +102,12 @@ export default function DestinationsPage() {
               type="text"
               placeholder="Search destinations, states…"
               value={searchQuery}
-              onChange={e => setSearchQuery(e.target.value)}
+              onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-white rounded-full pl-11 pr-10 py-3.5 font-body text-sm text-charcoal placeholder:text-earth-300 focus:outline-none focus:ring-2 focus:ring-saffron-300 shadow-glass"
             />
             {searchQuery && (
               <button
-                onClick={() => setSearchQuery('')}
+                onClick={() => setSearchQuery("")}
                 className="absolute right-4 top-1/2 -translate-y-1/2 text-earth-400 hover:text-charcoal"
               >
                 <X className="w-4 h-4" />
@@ -109,29 +120,31 @@ export default function DestinationsPage() {
       {/* Filter & Grid */}
       <section className="section-pad bg-cream">
         <div className="container-custom">
-
           {/* Category filter pills */}
           <div className="flex flex-wrap items-center gap-2.5 mb-8">
             <span className="flex items-center gap-1.5 text-earth-500 font-body text-sm mr-1">
               <Filter className="w-3.5 h-3.5" />
               Filter:
             </span>
-            {destinationCategories.map(cat => (
+            {destinationCategories.map((cat) => (
               <button
                 key={cat.id}
                 onClick={() => setActiveFilter(cat.id)}
                 className={`px-4 py-2 rounded-full font-body text-sm transition-all duration-200 ${
                   activeFilter === cat.id
-                    ? 'bg-saffron-500 text-white shadow-saffron'
-                    : 'bg-white text-earth-600 border border-earth-200 hover:border-saffron-300 hover:text-saffron-600'
+                    ? "bg-saffron-500 text-white shadow-saffron"
+                    : "bg-white text-earth-600 border border-earth-200 hover:border-saffron-300 hover:text-saffron-600"
                 }`}
               >
                 {cat.label}
               </button>
             ))}
-            {(activeFilter !== 'all' || searchQuery) && (
+            {(activeFilter !== "all" || searchQuery) && (
               <button
-                onClick={() => { setActiveFilter('all'); setSearchQuery(''); }}
+                onClick={() => {
+                  setActiveFilter("all");
+                  setSearchQuery("");
+                }}
                 className="flex items-center gap-1 text-earth-400 hover:text-saffron-600 font-body text-sm transition-colors ml-2"
               >
                 <X className="w-3.5 h-3.5" /> Clear filters
@@ -141,8 +154,16 @@ export default function DestinationsPage() {
 
           {/* Results count */}
           <p className="text-earth-400 font-body text-sm mb-7">
-            Showing <strong className="text-charcoal">{filtered.length}</strong> of {destinations.length} destinations
-            {searchQuery && <span> matching &quot;<strong className="text-saffron-600">{searchQuery}</strong>&quot;</span>}
+            Showing <strong className="text-charcoal">{filtered.length}</strong>{" "}
+            of {destinations.length} destinations
+            {searchQuery && (
+              <span>
+                {" "}
+                matching &quot;
+                <strong className="text-saffron-600">{searchQuery}</strong>
+                &quot;
+              </span>
+            )}
           </p>
 
           {/* Grid */}
@@ -184,23 +205,36 @@ export default function DestinationsPage() {
                       )}
                       <div className="absolute top-3 right-3 flex items-center gap-1 glass px-2.5 py-1.5 rounded-full">
                         <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                        <span className="text-white text-xs font-medium">{dest.rating}</span>
-                        <span className="text-white/50 text-xs">({dest.reviews})</span>
+                        <span className="text-white text-xs font-medium">
+                          {dest.rating}
+                        </span>
+                        <span className="text-white/50 text-xs">
+                          ({dest.reviews})
+                        </span>
                       </div>
                       <div className="absolute bottom-3 left-4">
-                        <p className="text-saffron-300 text-xs font-body tracking-wider uppercase mb-0.5">{dest.state}</p>
-                        <h3 className="text-white font-display text-xl font-medium">{dest.name}</h3>
+                        <p className="text-saffron-300 text-xs font-body tracking-wider uppercase mb-0.5">
+                          {dest.state}
+                        </p>
+                        <h3 className="text-white font-display text-xl font-medium">
+                          {dest.name}
+                        </h3>
                       </div>
                     </div>
 
                     {/* Body */}
                     <div className="p-5">
-                      <p className="text-earth-500 font-body text-sm leading-relaxed line-clamp-2 mb-3">{dest.description}</p>
+                      <p className="text-earth-500 font-body text-sm leading-relaxed line-clamp-2 mb-3">
+                        {dest.description}
+                      </p>
 
                       {/* Highlights */}
                       <div className="flex flex-wrap gap-1.5 mb-4">
                         {dest.highlights.slice(0, 3).map((h, idx) => (
-                          <span key={idx} className="text-xs bg-saffron-50 text-saffron-700 px-2.5 py-1 rounded-full font-body">
+                          <span
+                            key={idx}
+                            className="text-xs bg-saffron-50 text-saffron-700 px-2.5 py-1 rounded-full font-body"
+                          >
                             {h}
                           </span>
                         ))}
@@ -209,11 +243,17 @@ export default function DestinationsPage() {
                       {/* Footer */}
                       <div className="flex items-end justify-between pt-3 border-t border-earth-100">
                         <div>
-                          <p className="text-xs text-earth-400 font-body mb-0.5">Starting from</p>
-                          <p className="text-saffron-600 font-display text-xl font-semibold">{dest.priceFrom}</p>
+                          <p className="text-xs text-earth-400 font-body mb-0.5">
+                            Starting from
+                          </p>
+                          <p className="text-saffron-600 font-display text-xl font-semibold">
+                            {dest.priceFrom}
+                          </p>
                           <div className="flex items-center gap-1 mt-0.5">
                             <Clock className="w-3 h-3 text-earth-400" />
-                            <span className="text-earth-400 text-xs font-body">{dest.duration}</span>
+                            <span className="text-earth-400 text-xs font-body">
+                              {dest.duration}
+                            </span>
                           </div>
                         </div>
                         <Link
@@ -236,10 +276,17 @@ export default function DestinationsPage() {
                 className="text-center py-24"
               >
                 <div className="text-6xl mb-4">🗺️</div>
-                <h3 className="font-display text-2xl text-charcoal mb-2">No destinations found</h3>
-                <p className="font-body text-earth-400 mb-6">Try adjusting your search or filter.</p>
+                <h3 className="font-display text-2xl text-charcoal mb-2">
+                  No destinations found
+                </h3>
+                <p className="font-body text-earth-400 mb-6">
+                  Try adjusting your search or filter.
+                </p>
                 <button
-                  onClick={() => { setActiveFilter('all'); setSearchQuery(''); }}
+                  onClick={() => {
+                    setActiveFilter("all");
+                    setSearchQuery("");
+                  }}
                   className="btn-primary"
                 >
                   Show All Destinations
@@ -251,7 +298,7 @@ export default function DestinationsPage() {
       </section>
 
       {/* Best time to visit quick guide */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="inline-block text-saffron-500 font-body text-sm tracking-widest uppercase mb-3">
@@ -263,10 +310,39 @@ export default function DestinationsPage() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
             {[
-              { season: 'Winter', months: 'Oct – Feb', icon: '🌨', moods: ['Rajasthan', 'Kerala', 'Goa', 'Varanasi'], color: 'bg-blue-50 border-blue-200' },
-              { season: 'Spring', months: 'Mar – Apr', icon: '🌸', moods: ['Himachal', 'Kashmir Valley', 'Northeast'], color: 'bg-rose-50 border-rose-200' },
-              { season: 'Summer', months: 'Apr – Jun', icon: '☀️', moods: ['Manali', 'Kashmir', 'Leh-Ladakh'], color: 'bg-yellow-50 border-yellow-200' },
-              { season: 'Monsoon', months: 'Jul – Sep', icon: '🌧', moods: ['Kerala', 'Coorg', 'Goa (offbeat)', 'Valley of Flowers'], color: 'bg-emerald-50 border-emerald-200' },
+              {
+                season: "Winter",
+                months: "Oct – Feb",
+                icon: "🌨",
+                moods: ["Rajasthan", "Kerala", "Goa", "Varanasi"],
+                color: "bg-blue-50 border-blue-200",
+              },
+              {
+                season: "Spring",
+                months: "Mar – Apr",
+                icon: "🌸",
+                moods: ["Himachal", "Kashmir Valley", "Northeast"],
+                color: "bg-rose-50 border-rose-200",
+              },
+              {
+                season: "Summer",
+                months: "Apr – Jun",
+                icon: "☀️",
+                moods: ["Manali", "Kashmir", "Leh-Ladakh"],
+                color: "bg-yellow-50 border-yellow-200",
+              },
+              {
+                season: "Monsoon",
+                months: "Jul – Sep",
+                icon: "🌧",
+                moods: [
+                  "Kerala",
+                  "Coorg",
+                  "Goa (offbeat)",
+                  "Valley of Flowers",
+                ],
+                color: "bg-emerald-50 border-emerald-200",
+              },
             ].map((s, i) => (
               <motion.div
                 key={s.season}
@@ -277,11 +353,18 @@ export default function DestinationsPage() {
                 className={`rounded-2xl border p-5 ${s.color}`}
               >
                 <div className="text-3xl mb-3">{s.icon}</div>
-                <h3 className="font-body font-semibold text-charcoal mb-0.5">{s.season}</h3>
-                <p className="text-saffron-600 font-body text-sm font-medium mb-3">{s.months}</p>
+                <h3 className="font-body font-semibold text-charcoal mb-0.5">
+                  {s.season}
+                </h3>
+                <p className="text-saffron-600 font-body text-sm font-medium mb-3">
+                  {s.months}
+                </p>
                 <ul className="space-y-1">
-                  {s.moods.map(m => (
-                    <li key={m} className="text-earth-600 font-body text-xs flex items-center gap-1.5">
+                  {s.moods.map((m) => (
+                    <li
+                      key={m}
+                      className="text-earth-600 font-body text-xs flex items-center gap-1.5"
+                    >
                       <MapPin className="w-3 h-3 text-saffron-400 flex-shrink-0" />
                       {m}
                     </li>
@@ -291,7 +374,7 @@ export default function DestinationsPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <CTABanner />
     </>
