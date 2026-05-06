@@ -178,30 +178,6 @@ export const destinations = [
     bestTime: "Oct - Mar",
     badge: "Spiritual",
   },
-  {
-    id: 8,
-    name: "Coorg",
-    tagline: "Scotland of India",
-    state: "Karnataka",
-    image:
-      "https:/images.unsplash.com/photo-1596895111956-bf1cf0599ce5?w=800&q=80",
-    description:
-      "Mist-covered hills, coffee estates, and cascading waterfalls make Coorg the perfect weekend escape.",
-    priceFrom: "₹16,000",
-    priceTo: "₹45,000",
-    duration: "3-5 nights",
-    rating: 4.6,
-    reviews: 267,
-    category: ["hill-station", "honeymoon", "nature"],
-    highlights: [
-      "Coffee Plantation Tour",
-      "Abbey Falls",
-      "Raja's Seat",
-      "Nagarhole Safari",
-    ],
-    bestTime: "Oct - Mar",
-    badge: "Nature Retreat",
-  },
 ];
 
 export const destinationCategories = [
