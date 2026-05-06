@@ -11,7 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import bpark from "../../assets/locations/bpark.jpg";
 import Goa from "../../assets/locations/ga01.jpg";
-import kashmir from "../../assets/locations/jk01.jpg";
+import kashmir from "../../assets/locations/kashmir.webp";
 
 const FEATURED_TAGS = [
   "Sikkim",
