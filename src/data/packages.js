@@ -8,7 +8,7 @@ export const packages = [
     pricePerPerson: true,
     originalPrice: "₹42,000",
     image:
-      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&q=80",
+      "https:/images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&q=80",
     category: ["honeymoon", "premium"],
     rating: 4.9,
     reviews: 142,
@@ -75,7 +75,7 @@ export const packages = [
     pricePerPerson: true,
     originalPrice: "₹34,000",
     image:
-      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80",
+      "https:/images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80",
     category: ["family", "romantic"],
     rating: 4.8,
     reviews: 218,
@@ -114,7 +114,7 @@ export const packages = [
     pricePerPerson: true,
     originalPrice: "₹62,000",
     image:
-      "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80",
+      "https:/images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80",
     category: ["heritage", "luxury"],
     rating: 4.9,
     reviews: 187,
@@ -152,7 +152,7 @@ export const packages = [
     pricePerPerson: true,
     originalPrice: "₹24,000",
     image:
-      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
+      "https:/images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
     category: ["beach", "romantic"],
     rating: 4.7,
     reviews: 334,
@@ -185,7 +185,7 @@ export const packages = [
     pricePerPerson: true,
     originalPrice: "₹28,500",
     image:
-      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+      "https:/images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
     category: ["adventure", "honeymoon"],
     rating: 4.8,
     reviews: 156,
@@ -218,7 +218,7 @@ export const packages = [
     pricePerPerson: true,
     originalPrice: "₹50,000",
     image:
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80",
+      "https:/images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80",
     category: ["beach", "premium", "honeymoon"],
     rating: 4.9,
     reviews: 98,
@@ -254,7 +254,7 @@ export const packages = [
     price: "₹9,999",
     pricePerPerson: true,
     originalPrice: "₹14,999",
-    image: "src/assets/locations/sk01.jpg",
+    image: "/images/sk01.jpg",
     category: ["mountain", "nature", "adventure"],
     rating: 4.8,
     reviews: 412,
@@ -291,7 +291,7 @@ export const packages = [
     price: "₹8,499",
     pricePerPerson: true,
     originalPrice: "₹11,999",
-    image: "src/assets/locations/varanasi.jpg",
+    image: "/images/varanasi.jpg",
     category: ["spiritual", "culture", "heritage"],
     rating: 4.7,
     reviews: 298,
@@ -329,7 +329,8 @@ export const packages = [
     price: "₹12,499",
     pricePerPerson: true,
     originalPrice: "₹16,999",
-    image: "src/assets/locations/coorg.webp",
+    image:
+      "https:/images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
     category: ["nature", "mountain", "romantic"],
     rating: 4.8,
     reviews: 341,

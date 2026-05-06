@@ -11,7 +11,7 @@ export default function CTABanner() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="src/assets/locations/readyto.png"
+          src="public/readyto.png"
           alt="India travel background"
           className="w-full h-full object-cover"
         />

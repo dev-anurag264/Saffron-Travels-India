@@ -41,7 +41,7 @@ export default function DestinationsPage() {
       <section className="relative pt-36 pb-24 overflow-hidden bg-charcoal">
         <div className="absolute inset-0">
           <img
-            src="src/assets/locations/dj002.jpg"
+            src="/images/dj002.jpg"
             alt="India destinations"
             className="w-full h-full object-cover opacity-50"
           />

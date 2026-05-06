@@ -1,17 +1,22 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
 /**
  * Animates a number from 0 to target when it enters the viewport
  */
-export default function AnimatedCounter({ target, suffix = '', duration = 2000 }) {
+export default function AnimatedCounter({
+  target,
+  suffix = "",
+  duration = 2000,
+}) {
   const [count, setCount] = useState(0);
   const ref = useRef(null);
   const started = useRef(false);
 
   // Parse target — handles strings like "12,000" or "98"
-  const numericTarget = parseFloat(String(target).replace(/[^0-9.]/g, ''));
-  const prefix = String(target).match(/^[^0-9]*/)?.[0] ?? '';
-  const detectedSuffix = suffix || (String(target).match(/[^0-9.]+$/)?.[0] ?? '');
+  const numericTarget = parseFloat(String(target).replace(/[^0-9.]/g, ""));
+  const prefix = String(target).match(/^[^0-9]*/)?.[0] ?? "";
+  const detectedSuffix =
+    suffix || (String(target).match(/[^0-9.]+$/)?.[0] ?? "");
 
   useEffect(() => {
     const el = ref.current;
@@ -37,7 +42,7 @@ export default function AnimatedCounter({ target, suffix = '', duration = 2000 }
           observer.disconnect();
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.5 },
     );
 
     observer.observe(el);
@@ -45,13 +50,14 @@ export default function AnimatedCounter({ target, suffix = '', duration = 2000 }
   }, [numericTarget, duration]);
 
   // Format with commas for Indian number system
-  const formatted = count >= 1000
-    ? count.toLocaleString('en-IN')
-    : count.toString();
+  const formatted =
+    count >= 1000 ? count.toLocaleString("en-IN") : count.toString();
 
   return (
     <span ref={ref}>
-      {prefix}{formatted}{detectedSuffix}
+      {prefix}
+      {formatted}
+      {detectedSuffix}
     </span>
   );
 }

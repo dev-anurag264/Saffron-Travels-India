@@ -85,7 +85,7 @@ saffron-trails/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/saffron-trails-india.git
+git clone https:/github.com/yourusername/saffron-trails-india.git
 cd saffron-trails-india
 
 # 2. Install dependencies
@@ -95,7 +95,7 @@ npm install
 npm run dev
 ```
 
-The site will be live at `http://localhost:5173`
+The site will be live at `http:/localhost:5173`
 
 ---
 
@@ -131,7 +131,7 @@ vercel --prod
 ### Option B — GitHub Integration
 
 1. Push your code to a GitHub repository
-2. Go to [vercel.com](https://vercel.com) → **New Project**
+2. Go to [vercel.com](https:/vercel.com) → **New Project**
 3. Import your GitHub repo
 4. Vercel auto-detects Vite — click **Deploy**
 

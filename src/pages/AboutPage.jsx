@@ -51,7 +51,7 @@ export default function AboutPage() {
       <section className="relative pt-36 pb-24 bg-charcoal overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=1920&q=80"
+            src="https:/images.unsplash.com/photo-1519125323398-675f0ddb6308?w=1920&q=80"
             alt="Saffron Trails India team"
             className="w-full h-full object-cover opacity-20"
           />
@@ -98,7 +98,7 @@ export default function AboutPage() {
             >
               <div className="rounded-3xl overflow-hidden shadow-card-hover aspect-[4/3]">
                 <img
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
+                  src="https:/images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
                   alt="Saffron Trails team"
                   className="w-full h-full object-cover"
                 />
@@ -125,27 +125,27 @@ export default function AboutPage() {
               />
               <div className="space-y-4 text-earth-600 font-body leading-relaxed">
                 <p>
-                  Saffron Travels India was founded in 2023 by Rohan Kapoor — a
-                  passionate traveler who had spent years exploring India's
+                  Saffron Travels India was founded in 2023 by a group of 3
+                  passionate travelers who had spent years exploring India's
                   hidden corners and realized that most tour companies were
                   showing people only the surface.
                 </p>
                 <p>
                   The name &quot;Saffron Travels&quot; was chosen deliberately:
-                  saffron — India's most precious spice — represents luxury,
+                  saffron - India's most precious spice - represents luxury,
                   rarity, and authenticity. That's exactly what we promise every
                   traveler who books with us.
                 </p>
                 <p>
-                  Starting from a small office in Bandra with 3 people and a
-                  phone, we've grown into a team of 40+ travel specialists
+                  Starting from a small office in Siliguri with 3 people and a
+                  phone, we've grown into a team of 20+ travel specialists
                   handling everything from intimate honeymoon escapes to large
-                  corporate MICE events — all across India.
+                  group events across India.
                 </p>
                 <p>
-                  What hasn't changed in 16 years: our obsession with getting
-                  every detail right, and our genuine belief that travel is one
-                  of life's greatest gifts.
+                  What hasn't changed in the past years: our obsession with
+                  getting every detail right, and our genuine belief that travel
+                  is one of life's greatest gifts.
                 </p>
               </div>
             </div>
@@ -261,7 +261,7 @@ export default function AboutPage() {
                 Our Vision
               </h3>
               <p className="font-body text-white/60 leading-relaxed">
-                To become India's most trusted travel partner — not the biggest,
+                To become India's most trusted travel partner, not the biggest,
                 but the best. A company where every traveler feels like a guest
                 being welcomed by a friend who knows exactly where to take them
                 for the most unforgettable experience.
@@ -300,7 +300,7 @@ export default function AboutPage() {
             eyebrow="Our Journey"
             title={
               <>
-                16 Years, One <em>Passion</em>
+                3 Years, One <em>Passion</em>
               </>
             }
             subtitle="From a small office in Mumbai to over 12,000 happy travelers — our story."

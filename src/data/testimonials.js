@@ -8,7 +8,7 @@ export const testimonials = [
     date: "January 2025",
     review:
       "Our Kashmir honeymoon was absolutely magical. Saffron Trails arranged everything flawlessly — from the houseboat on Dal Lake to the Gulmarg snow adventure. Every detail was thoughtfully planned. The local guide was exceptional. Couldn't have asked for a more perfect start to our married life!",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "couple",
   },
   {
@@ -20,7 +20,7 @@ export const testimonials = [
     date: "February 2025",
     review:
       "Traveled with my family of 5 across Rajasthan. The heritage hotels were stunning — pure luxury at every stop. Our guide Vijay Singh was a walking encyclopedia of Rajput history. The desert camp night in Jaisalmer was something my kids will talk about for years. 10/10 would book again.",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "family",
   },
   {
@@ -32,7 +32,7 @@ export const testimonials = [
     date: "December 2024",
     review:
       "As someone who has traveled extensively, I was genuinely impressed. The houseboat experience was unlike anything I've done — waking up to misty backwaters with birds calling... breathtaking. The Ayurveda session they arranged was divine. Saffron Trails truly understands curated travel.",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "solo",
   },
   {
@@ -44,7 +44,7 @@ export const testimonials = [
     date: "March 2025",
     review:
       "Our anniversary trip to Andaman exceeded every expectation. Radhanagar Beach is real — that shade of turquoise blue! The scuba diving was our first time and the PADI instructors made us feel completely safe. Every hotel, every transfer, every meal was exactly as promised. Saffron Trails delivers.",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "couple",
   },
   {
@@ -56,7 +56,7 @@ export const testimonials = [
     date: "November 2024",
     review:
       "Planned a group trip for 8 people and it went without a single hitch. From the airport pickup to the final transfer, everything was smooth. The spice plantation tour was a highlight the whole group loved. The team was responsive to every query — even at 11 PM! That kind of service is rare.",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "family",
   },
   {
@@ -68,7 +68,7 @@ export const testimonials = [
     date: "April 2025",
     review:
       "Perfect adventure trip with college friends. The river rafting was exhilarating and the camp under stars in Solang Valley was unforgettable. Rohtang Pass snow was incredible. Some minor hiccups with hotel room allocation but the team resolved it within the hour. Will definitely come back for a winter trip!",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "group",
   },
   {
@@ -80,7 +80,7 @@ export const testimonials = [
     date: "March 2025",
     review:
       "Absolutely loved the Sikkim trip! Tsomgo Lake was frozen and looked straight out of a postcard. Gangtok was clean and lively, especially MG Marg in the evenings. The entire journey felt peaceful and refreshing. Everything was well managed without any stress.",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "friends",
   },
   {
@@ -92,7 +92,7 @@ export const testimonials = [
     date: "February 2025",
     review:
       "North Sikkim is truly magical. Yumthang Valley and Zero Point were covered in snow and looked unreal. The roads were challenging but the views made every second worth it. The stays were cozy and the food was surprisingly good in such remote areas.",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "couple",
   },
   {
@@ -104,7 +104,7 @@ export const testimonials = [
     date: "January 2025",
     review:
       "Nathula Pass was the highlight of our trip—standing at the Indo-China border was surreal. Gangtok had a great vibe with cafes and local markets. Weather caused slight delays in permits but overall the experience was smooth and memorable.",
-    avatar: "src/assets/locations/user.png",
+    avatar: "/images/user.png",
     type: "group",
   },
 ];
@@ -112,26 +112,26 @@ export const testimonials = [
 export const teamMembers = [
   {
     id: 1,
-    name: "Rohan Kapoor",
+    name: "Anurag Prasad",
     role: "Founder & Managing Director",
-    bio: "18 years in premium travel. Former GM at a leading Mumbai travel house. His vision: make curated travel accessible to every Indian family.",
-    image: "src/assets/locations/user.png",
+    bio: "A Young traveler turned entrepreneur. Anurag has personally explored over 20 destinations across India to ensure every itinerary is authentic and unforgettable.",
+    image: "/images/user.png",
     linkedin: "#",
   },
   {
     id: 2,
-    name: "Nandita Rao",
+    name: "Lovely Sharma",
     role: "Head of Experiences",
     bio: "Architect of our award-winning itineraries. Nandita has personally stayed in over 200 hotels across India to curate only the finest.",
-    image: "src/assets/locations/user.png",
+    image: "/images/user.png",
     linkedin: "#",
   },
   {
     id: 3,
-    name: "Vikram Singh",
-    role: "Corporate Travel Head",
+    name: "Aniket Thakur",
+    role: "Group Travel Head",
     bio: "Former corporate sales director with 15 years of managing MICE events for Fortune 500 companies across Asia.",
-    image: "src/assets/locations/user.png",
+    image: "/images/user.png",
     linkedin: "#",
   },
   {
@@ -139,7 +139,7 @@ export const teamMembers = [
     name: "Meera Nair",
     role: "Customer Happiness Lead",
     bio: "24/7 on call for every traveler. Meera's team has maintained a 97% satisfaction rate across 3,000+ trips.",
-    image: "src/assets/locations/user.png",
+    image: "/images/user.png",
     linkedin: "#",
   },
 ];

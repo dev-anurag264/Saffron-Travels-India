@@ -9,9 +9,9 @@ import {
   ChevronDown,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import bpark from "../../assets/locations/bpark.jpg";
-import Goa from "../../assets/locations/ga01.jpg";
-import kashmir from "../../assets/locations/kashmir.webp";
+import bpark from "../../../public/images/bpark.jpg";
+import Goa from "../../../public/images/ga01.jpg";
+import kashmir from "../../../public/images/kashmir.webp";
 
 const FEATURED_TAGS = [
   "Sikkim",
@@ -62,7 +62,7 @@ export default function HeroSection() {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // Navigate to packages page with filters
+    //Navigate to packages page with filters
     window.location.href = "/packages";
   };
 

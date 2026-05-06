@@ -3,37 +3,37 @@ import { Instagram } from "lucide-react";
 
 const photos = [
   {
-    src: "src/assets/locations/dal.jpg",
+    src: "/images/dal.jpg",
     caption: "Dal Lake sunrise, Kashmir",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&q=80",
+    src: "https:/images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&q=80",
     caption: "Goa beach vibes",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&q=80",
+    src: "https:/images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&q=80",
     caption: "Manali snow peaks",
     span: "",
   },
   {
-    src: "src/assets/locations/sk02.jpg",
+    src: "/images/sk02.jpg",
     caption: "Buddhist monastery, Sikkim",
     span: "col-span-2",
   },
   {
-    src: "src/assets/locations/varanasi.jpg",
+    src: "/images/varanasi.jpg",
     caption: "Varanasi ghats",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?w=600&q=80",
+    src: "https:/images.unsplash.com/photo-1596895111956-bf1cf0599ce5?w=600&q=80",
     caption: "Coorg misty mornings",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80",
+    src: "https:/images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80",
     caption: "Andaman turquoise waters",
     span: "",
   },
@@ -57,7 +57,7 @@ export default function TravelInspiration() {
             </h2>
           </div>
           <a
-            href="https://instagram.com"
+            href="https:/instagram.com"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 text-earth-500 hover:text-saffron-600 font-body text-sm transition-colors group"
@@ -110,7 +110,7 @@ export default function TravelInspiration() {
           className="mt-8 text-center"
         >
           <a
-            href="https://instagram.com"
+            href="https:/instagram.com"
             target="_blank"
             rel="noreferrer"
             className="btn-secondary inline-flex"

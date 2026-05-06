@@ -375,7 +375,7 @@ export default function PackagesPage() {
       <section className="relative pt-36 pb-24 bg-black overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="src/assets/locations/gtr.webp"
+            src="/images/gtr.webp"
             alt="Tour packages India"
             className="w-full h-full object-cover opacity-60"
           />

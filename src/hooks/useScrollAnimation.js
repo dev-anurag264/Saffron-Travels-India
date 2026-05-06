@@ -16,7 +16,7 @@ export function useInView(options = {}) {
       ([entry]) => {
         if (entry.isIntersecting) {
           setInView(true);
-          // Once in view, stop observing (animate once)
+          / Once in view, stop observing (animate once)
           if (!options.repeat) observer.unobserve(el);
         } else if (options.repeat) {
           setInView(false);

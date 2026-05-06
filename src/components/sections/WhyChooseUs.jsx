@@ -76,7 +76,7 @@ export default function WhyChooseUs() {
             {/* Main image */}
             <div className="relative rounded-3xl overflow-hidden shadow-card-hover aspect-[4/5]">
               <img
-                src="src/assets/locations/group.jpg"
+                src="/images/group.jpg"
                 alt="Saffron Trails travel experience"
                 className="w-full h-full object-cover"
               />

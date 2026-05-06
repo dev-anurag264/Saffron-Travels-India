@@ -4,7 +4,7 @@ export const destinations = [
     name: "Kashmir",
     tagline: "Paradise on Earth",
     state: "Jammu & Kashmir",
-    image: "src/assets/locations/kashmir.webp",
+    image: "/images/kashmir.webp",
     description:
       "Pristine lakes, snow-capped peaks, and Mughal gardens. Kashmir is India's most breathtaking destination.",
     priceFrom: "₹28,000",
@@ -27,7 +27,7 @@ export const destinations = [
     name: "Sikkim",
     tagline: "Paradise of the Northeast",
     state: "Sikkim",
-    image: "src/assets/locations/sk03.jpg",
+    image: "/images/sk03.jpg",
     description:
       "Nestled in the heart of the Himalayas - A land of breathtaking mountains, peaceful monasteries, vibrant culture, and unforgettable adventures.",
     priceFrom: "₹5,999",
@@ -45,7 +45,7 @@ export const destinations = [
     name: "Rajasthan",
     tagline: "Land of Kings",
     state: "Rajasthan",
-    image: "src/assets/locations/raj001.webp",
+    image: "/images/raj001.webp",
     description:
       "Royal palaces, golden sand dunes, and vibrant culture. Rajasthan is India's most majestic heritage destination.",
     priceFrom: "₹25,000",
@@ -68,7 +68,7 @@ export const destinations = [
     name: "Goa",
     tagline: "Where Every Moment Shines",
     state: "Goa",
-    image: "src/assets/locations/goa01.webp",
+    image: "/images/goa01.webp",
     description:
       "Sun-kissed beaches, Portuguese architecture, vibrant nightlife, and fresh seafood. Goa has something for everyone.",
     priceFrom: "₹15,000",
@@ -91,7 +91,7 @@ export const destinations = [
     name: "Manali",
     tagline: "Adventure Awaits",
     state: "Himachal Pradesh",
-    image: "src/assets/locations/hp001.webp",
+    image: "/images/hp001.webp",
     description:
       "A paradise for thrill seekers and nature lovers alike, Manali offers dramatic Himalayan landscapes year-round.",
     priceFrom: "₹18,000",
@@ -114,7 +114,7 @@ export const destinations = [
     name: "Andaman Islands",
     tagline: "Tropical Paradise",
     state: "Andaman & Nicobar",
-    image: "src/assets/locations/and001.webp",
+    image: "/images/and001.webp",
     description:
       "Crystal clear turquoise waters, untouched coral reefs, and pristine white-sand beaches in India's island gem.",
     priceFrom: "₹30,000",
@@ -137,7 +137,7 @@ export const destinations = [
     name: "Kerala",
     tagline: "God's Own Country",
     state: "Kerala",
-    image: "src/assets/locations/ker001.webp",
+    image: "/images/ker001.webp",
     description:
       "Backwaters, Ayurveda retreats, spice plantations, and pristine beaches make Kerala an unforgettable escape.",
     priceFrom: "₹22,000",
@@ -160,7 +160,7 @@ export const destinations = [
     name: "Varanasi",
     tagline: "Soul of India",
     state: "Uttar Pradesh",
-    image: "src/assets/locations/varanasi.jpg",
+    image: "/images/varanasi.jpg",
     description:
       "The world's oldest living city — a spiritual journey along the sacred ghats of the Ganges River.",
     priceFrom: "₹12,000",
@@ -184,7 +184,7 @@ export const destinations = [
     tagline: "Scotland of India",
     state: "Karnataka",
     image:
-      "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?w=800&q=80",
+      "https:/images.unsplash.com/photo-1596895111956-bf1cf0599ce5?w=800&q=80",
     description:
       "Mist-covered hills, coffee estates, and cascading waterfalls make Coorg the perfect weekend escape.",
     priceFrom: "₹16,000",
