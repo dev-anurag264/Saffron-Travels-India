@@ -7,12 +7,11 @@ export const packages = [
     price: "₹32,500",
     pricePerPerson: true,
     originalPrice: "₹42,000",
-    image:
-      "https:/images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&q=80",
+    image: "/images/packagetrips/kashmir-pkg.jpeg",
     category: ["honeymoon", "premium"],
     rating: 4.9,
     reviews: 142,
-    groupSize: "2–12 people",
+    groupSize: "2-12 people",
     highlights: [
       "Shikara ride on Dal Lake at sunrise",
       "2 nights in a heritage houseboat",
@@ -74,12 +73,11 @@ export const packages = [
     price: "₹26,800",
     pricePerPerson: true,
     originalPrice: "₹34,000",
-    image:
-      "https:/images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80",
+    image: "/images/packagetrips/kerela-pkg.jpg",
     category: ["family", "romantic"],
     rating: 4.8,
     reviews: 218,
-    groupSize: "2–10 people",
+    groupSize: "2-10 people",
     highlights: [
       "1 night on premium houseboat in Alleppey",
       "Munnar tea estate guided walk",
@@ -113,12 +111,11 @@ export const packages = [
     price: "₹48,000",
     pricePerPerson: true,
     originalPrice: "₹62,000",
-    image:
-      "https:/images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80",
+    image: "/images/packagetrips/rajasthan-pkg.jpg",
     category: ["heritage", "luxury"],
     rating: 4.9,
     reviews: 187,
-    groupSize: "2–16 people",
+    groupSize: "2-16 people",
     highlights: [
       "Jaipur palace & fort tour with cultural show",
       "Jaisalmer desert camp (camel safari + bonfire)",
@@ -128,7 +125,7 @@ export const packages = [
       "Heritage hotel stays throughout",
     ],
     inclusions: [
-      "Heritage Hotels (4★–5★)",
+      "Heritage Hotels (4★/5★)",
       "Breakfast & Dinner",
       "AC Cab throughout",
       "All entry fees",
@@ -151,12 +148,11 @@ export const packages = [
     price: "₹18,500",
     pricePerPerson: true,
     originalPrice: "₹24,000",
-    image:
-      "https:/images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
+    image: "/images/packagetrips/goa-pkg.jpg",
     category: ["beach", "romantic"],
     rating: 4.7,
     reviews: 334,
-    groupSize: "2–8 people",
+    groupSize: "2-8 people",
     highlights: [
       "Beachfront resort stay (North Goa)",
       "Portuguese heritage walk — Old Goa",
@@ -184,12 +180,11 @@ export const packages = [
     price: "₹22,000",
     pricePerPerson: true,
     originalPrice: "₹28,500",
-    image:
-      "https:/images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: "/images/packagetrips/manali-pkg.jpg",
     category: ["adventure", "honeymoon"],
     rating: 4.8,
     reviews: 156,
-    groupSize: "2–10 people",
+    groupSize: "2-10 people",
     highlights: [
       "Rohtang Pass snow adventure",
       "Solang Valley zip-line & ATV",
@@ -217,8 +212,7 @@ export const packages = [
     price: "₹38,000",
     pricePerPerson: true,
     originalPrice: "₹50,000",
-    image:
-      "https:/images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80",
+    image: "/images/packagetrips/andaman-pkg.jpg",
     category: ["beach", "premium", "honeymoon"],
     rating: 4.9,
     reviews: 98,
@@ -329,8 +323,7 @@ export const packages = [
     price: "₹12,499",
     pricePerPerson: true,
     originalPrice: "₹16,999",
-    image:
-      "https:/images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: "/images/packagetrips/coorg-pkg.webp",
     category: ["nature", "mountain", "romantic"],
     rating: 4.8,
     reviews: 341,
