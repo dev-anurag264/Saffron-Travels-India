@@ -1,6 +1,6 @@
-# 🌿 Saffron Trails India — Premium Travel Website
+#  Saffron Travels India - Premium Travel Website
 
-A production-grade, fully responsive travel website for **Saffron Trails India**, built with React + Vite + Tailwind CSS + Framer Motion.
+A production-grade, fully responsive travel website for **Saffron Travels India**, built with React + Vite + Tailwind CSS + Framer Motion.
 
 ---
 
